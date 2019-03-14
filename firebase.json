@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "predeploy": [
+      "cd \"$RESOURCE_DIR\"; yarn lint; yarn build;"
+    ]
+  }
+}
